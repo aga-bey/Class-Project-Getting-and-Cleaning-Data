@@ -7,16 +7,23 @@ This is a "collection of databases, domain theories, and data generators that ar
 
 • Download link to the raw data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
-The data used consisted of these eight files:
+The data used consisted of the eight files a-h:
 
-activity_labels.txt -- Six labels for the six different activities during which cellphone data was harvested.
-features.txt -- 561 variable names forming the columns of the data set.
-subject_test.txt -- 2947 observations of human subjects individually numbered as 2,4,9,10,12,13,18,20,24
-subject_train.txt -- 7352 observations of human subjects individually numbered as 1,3-8,11,14-19,24,21-23,25-30
-X_test.txt -- 2974 observations of 561 variables of numeric cellphone  accelerometer measurements.  
-y_test.txt -- 2974 observations of 1 variable: Namely the integers 1-6 corresponding to acitivties in activity_labels.txt
-X_train.txt -- 7352 observations of 561 variables of numeric cellphone  accelerometer measurements.
-y_train.txt -- 7352 observations of 1 variables: Namely the integers 1-6 corresponding to acitivties in activity_labels.txt
+a) activity_labels.txt -- Six labels for the six different activities during which cellphone data was harvested.
+
+b) features.txt -- 561 variable names forming the columns of the data set.
+
+c) subject_test.txt -- 2947 observations of human subjects individually numbered as 2,4,9,10,12,13,18,20,24
+
+d) subject_train.txt -- 7352 observations of human subjects individually numbered as 1,3-8,11,14-19,24,21-23,25-30
+
+e) X_test.txt -- 2974 observations of 561 variables of numeric cellphone  accelerometer measurements.  
+
+f) y_test.txt -- 2974 observations of 1 variable: Namely the integers 1-6 corresponding to acitivties in activity_labels.txt
+
+g) X_train.txt -- 7352 observations of 561 variables of numeric cellphone  accelerometer measurements.
+
+h) y_train.txt -- 7352 observations of 1 variables: Namely the integers 1-6 corresponding to acitivties in activity_labels.txt
 
 The R-script "run_analysis.R" does the following:
 
