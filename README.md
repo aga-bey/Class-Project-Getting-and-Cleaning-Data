@@ -5,7 +5,7 @@ This is a "collection of databases, domain theories, and data generators that ar
 
 • UCI information: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-• Download link to the raw data: ttps://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+• Download link to the raw data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
 The data used consisted of these eight files:
 
