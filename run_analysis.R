@@ -15,13 +15,6 @@
 # Load this package
 library(dplyr)
 
-# Save old working directory
-old_dir <- getwd()
-
-# Need to point to folder location with data
-setwd("~/Desktop/DataScienceCoursera")
-
-
 # Read in URLS:
 train_url <- "./UCI HAR Dataset/train/X_train.txt"
 y_train_url <- "./UCI HAR Dataset/train/y_train.txt"
@@ -117,3 +110,9 @@ my_tidy <- all_data %>% group_by(activity, subject_Id) %>% summarise_all(mean)
 # NOTE : my_tidy --> 180 obs of 68 variables
 
 
+
+###############   Peer Review  ##################### 
+# Code used to submit "my_tidy" into Coursera for peer review:
+#write.table( my_tidy, "my_tidy", row.name=FALSE) 
+# Code used to check that "my_tidy" was written correctly:
+# test <- read.table( "my_tidy" , header = TRUE) 
